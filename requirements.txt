@@ -1,0 +1,15 @@
+torch 
+torchvision 
+torchaudio
+lightning
+gradio
+scikit-image
+Pillow
+numpy
+scipy
+pandas
+matplotlib
+wandb
+torch_fidelity
+opencv-python
+pytorch_fid
