@@ -6,6 +6,7 @@ gradio
 scikit-image
 Pillow
 numpy
+joblib
 scipy
 pandas
 matplotlib
