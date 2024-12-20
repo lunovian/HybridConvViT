@@ -3,4 +3,4 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
-models/__pycache__/*.pyc
+*.pyc
