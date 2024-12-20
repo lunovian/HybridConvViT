@@ -3,3 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
+experiments/checkpoints/
+experiments/logs/
+.ipynb_checkpoints/
