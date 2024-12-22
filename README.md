@@ -1,6 +1,6 @@
 # HybridConvViT: Semi-Supervised Image Colorization
 
-A brief description of your HybridConvViT project and what problem it solves.
+HybridConvViT is an innovative model designed for colorizing grayscale images by combining convolutional layers with Vision Transformer (ViT) blocks. It leverages semi-supervised learning to achieve high accuracy even with limited labeled data. Additionally, HybridConvViT allows user interaction for enhanced colorization, enabling users to specify areas to color and choose colors interactively. This user-guided approach provides flexibility and improves the model's performance in achieving desired colorization results.
 
 --------------------------------------------------------------------------------
 
@@ -22,87 +22,73 @@ A brief description of your HybridConvViT project and what problem it solves.
 
 ## Overview
 
-Describe the motivation for creating HybridConvViT.  
-• What makes it unique for colorizing grayscale images?  
-• Why did you combine convolutional layers with a Vision Transformer (ViT)?  
-• How does semi-supervised learning come into play?
+### Motivation for Creating HybridConvViT
+
+The inspiration for developing HybridConvViT comes from a personal passion for historical war images and a desire to bring new life to my grandparents' cherished black and white photographs. Many of these images, some over 100 years old, capture significant moments in history but have lost their vibrancy over time. Colorizing these images not only enhances their visual appeal but also helps in better understanding and connecting with the past.
+
+### Why Combine Convolutional Layers with a Vision Transformer (ViT)?
+
+Combining convolutional layers with Vision Transformer (ViT) blocks allows HybridConvViT to leverage the strengths of both architectures:
+
+- **Convolutional Layers**: These are excellent at capturing fine-grained local details and textures in images, making them ideal for tasks involving spatial hierarchies.
+  
+- **Vision Transformers (ViT)**: ViTs excel at modeling long-range dependencies and understanding the global context of an image. They can effectively capture relationships between distant pixels, which is crucial for holistic image comprehension.
+
+By integrating these two approaches, HybridConvViT can simultaneously capture detailed local features and the broader context, resulting in more accurate and realistic colorization of grayscale images.
+
+### How Does Semi-Supervised Learning Come into Play?
+
+Semi-supervised learning is a key component of HybridConvViT, enabling it to perform well even with limited labeled data. Here’s how it benefits the model:
+
+- **Leveraging Unlabeled Data**: Historical images often lack corresponding color labels. Semi-supervised learning allows the model to learn from both labeled and unlabeled data, significantly improving its generalization capabilities.
+  
+- **Improved Accuracy**: The inclusion of unlabeled data helps the model to learn more robust features, leading to better colorization results. It enhances the model's ability to understand various contexts and structures within the images.
+  
+- **User Interaction**: HybridConvViT also supports user interaction, allowing users to specify areas to color and choose colors interactively. This user-guided approach provides additional supervision, making the colorization process more precise and customizable.
+
+In summary, HybridConvViT combines the best of convolutional networks and Vision Transformers to effectively capture both local details and global context in images. By utilizing semi-supervised learning and enabling user interaction, it addresses the challenges of limited labeled data and provides a powerful tool for bringing historical black and white images back to life.
 
 --------------------------------------------------------------------------------
 
 ## Key Features
 
-• Leverages both convolutional and transformer-based architectures for feature extraction.  
-• Utilizes semi-supervised learning (SSL) for improved accuracy even with limited labeled data.  
-• Flexible framework to extend or modify the model for various image manipulation tasks.  
-• Scalable to larger image resolutions and diverse datasets.
+- **Semi-Supervised Learning (SSL)**: Utilizes SSL to improve accuracy even with limited labeled data, making it effective in scenarios with scarce color references.
+
+- **User-Guided Interaction**: Allows users to interact with the model by specifying areas to color and choosing colors, providing additional control and customization.
+
+- **Flexible Framework**: Designed to be easily extendable or modifiable for various image manipulation tasks, beyond just colorization.
+
+- **Scalability**: Capable of handling larger image resolutions and diverse datasets, ensuring applicability across different use cases.
 
 --------------------------------------------------------------------------------
 
 ## Demo or Examples
 
-If possible, include some “before and after” or sample images here.
+*Still in progress... Stay tuned for updates!*
 
 --------------------------------------------------------------------------------
 
 ## Installation
 
-Outline steps for installing dependencies, frameworks, and any other requirements. For instance:
-
-```bash
-git clone https://github.com/yourusername/HybridConvViT.git
-cd HybridConvViT
-pip install -r requirements.txt
-```
+*Still in progress... Stay tuned for updates!*
 
 --------------------------------------------------------------------------------
 
 ## Usage
 
-Explain how to run the model or script. Include any command-line examples, input file requirements, or environment variables.
-
-Example (if you have a script named colorize.py):
-```bash
-python colorize.py \
-  --input_path /path/to/grayscale/images \
-  --output_path /path/to/save/colorized/images \
-  --model_path /path/to/saved/model/checkpoint
-```
+*Still in progress... Stay tuned for updates!*
 
 --------------------------------------------------------------------------------
 
 ## Model Architecture
 
-Describe the core aspects of your HybridConvViT architecture, such as:  
-• The initial convolutional layers for local feature learning.  
-• The Vision Transformer blocks for global context understanding.  
-• How they are combined (e.g., feature fusion strategy).  
-• Loss function(s) used.
+*Still in progress... Stay tuned for updates!*
 
 --------------------------------------------------------------------------------
 
 ## Training Details
 
-Describe how to train the model from scratch or how to continue training from a checkpoint.
-
-1. Data Preparation:  
-   - How to acquire or generate the labeled/unlabeled dataset.  
-   - Any preprocessing steps or folder structure required.
-
-2. Training Script & Parameters:  
-   - Example training commands, epochs, batch size, learning rate, etc.
-
-```bash
-python train.py \
-  --dataset_path /path/to/dataset \
-  --epochs 50 \
-  --batch_size 16 \
-  --learning_rate 1e-4 \
-  --unlabeled_data_path /path/to/unlabeled/images
-```
-
-3. Semi-Supervised Learning Approach:  
-   - Briefly outline how you integrate unlabeled data.  
-   - Mention any additional hyperparameters or steps for SSL.
+*Still in progress... Stay tuned for updates!*
 
 --------------------------------------------------------------------------------
 
@@ -121,23 +107,10 @@ Explain how others can contribute (pull requests, issues, etc.). Provide any gui
 
 ## License
 
-Specify your project’s license. For example:
-
-```
-MIT License
-```
+This project is licensed under the [MIT License](LICENSE).
 
 --------------------------------------------------------------------------------
 
 ## Citation
 
-If you have a paper or publication related to HybridConvViT, provide the BibTeX or reference details here.
-
-```bibtex
-@misc{yourhybridconvvit,
-  title={HybridConvViT: A Semi-Supervised Approach to Colorizing Grayscale Images},
-  author={Your Name or Organization},
-  year={2024},
-  howpublished={\url{https://github.com/yourusername/HybridConvViT}}
-}
-```
+*Still in progress... Stay tuned for updates!*
