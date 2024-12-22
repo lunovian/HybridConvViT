@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from skimage.color import lab2rgb
+import torch
 
 def lab_to_rgb(L, AB):
     L = L.squeeze(1).cpu().numpy()
