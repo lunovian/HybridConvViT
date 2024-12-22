@@ -99,9 +99,57 @@ You can also show colorized samples or a link to a live demo if available.
 
 --------------------------------------------------------------------------------
 
-## Contributing
+We welcome contributions to the HybridConvViT project! Here are some ways you can contribute:
 
-Explain how others can contribute (pull requests, issues, etc.). Provide any guidelines or standards you follow.
+### Issues
+
+If you encounter any bugs, have feature requests, or need help, please open an issue on our [GitHub Issues](https://github.com/yourusername/HybridConvViT/issues) page. Provide as much detail as possible to help us understand and resolve the issue.
+
+### Pull Requests
+
+If you'd like to contribute code, follow these steps:
+
+1. **Fork the Repository**: Click the "Fork" button at the top right of the repository page to create a copy of the repository on your GitHub account.
+   
+2. **Clone the Forked Repository**: Clone your forked repository to your local machine using:
+   ```bash
+   git clone https://github.com//HybridConvViT.git
+   ```
+   
+3. **Create a New Branch**: Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+   
+4. **Make Your Changes**: Implement your changes in the new branch. Make sure to follow the project's coding standards and guidelines.
+   
+5. **Commit Your Changes**: Commit your changes with a descriptive commit message:
+   ```bash
+   git commit -m "Description of changes"
+   ```
+   
+6. **Push to Your Fork**: Push your changes to your forked repository:
+   ```bash
+   git push origin feature-name
+   ```
+   
+7. **Create a Pull Request**: Go to the original repository on GitHub and click the "New Pull Request" button. Select your branch and provide a detailed description of your changes.
+
+### Coding Standards
+
+- **Style Guide**: Follow the project's style guide for code formatting and comments.
+- **Testing**: Ensure that your code passes all tests and does not break existing functionality. Add new tests if applicable.
+- **Documentation**: Update documentation to reflect any changes or new features added.
+
+### Code of Conduct
+
+By participating in this project, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md). We are committed to providing a welcoming and inclusive environment for everyone.
+
+### Feedback
+
+We value your feedback! Feel free to suggest improvements or share your thoughts on the project's direction.
+
+Thank you for contributing to HybridConvViT. Your efforts help make this project better for everyone!
 
 --------------------------------------------------------------------------------
 
