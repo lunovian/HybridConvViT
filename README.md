@@ -2,8 +2,6 @@
 
 HybridConvViT is an innovative model designed for colorizing grayscale images by combining convolutional layers with Vision Transformer (ViT) blocks. It leverages semi-supervised learning to achieve high accuracy even with limited labeled data. Additionally, HybridConvViT allows user interaction for enhanced colorization, enabling users to specify areas to color and choose colors interactively. This user-guided approach provides flexibility and improves the model's performance in achieving desired colorization results.
 
---------------------------------------------------------------------------------
-
 ## Table of Contents
 
 1. [Overview](#overview)  
@@ -17,8 +15,6 @@ HybridConvViT is an innovative model designed for colorizing grayscale images by
 9. [Contributing](#contributing)  
 10. [License](#license)  
 11. [Citation](#citation)  
-
---------------------------------------------------------------------------------
 
 ## Overview
 
@@ -48,8 +44,6 @@ Semi-supervised learning is a key component of HybridConvViT, enabling it to per
 
 In summary, HybridConvViT combines the best of convolutional networks and Vision Transformers to effectively capture both local details and global context in images. By utilizing semi-supervised learning and enabling user interaction, it addresses the challenges of limited labeled data and provides a powerful tool for bringing historical black and white images back to life.
 
---------------------------------------------------------------------------------
-
 ## Key Features
 
 - **Semi-Supervised Learning (SSL)**: Utilizes SSL to improve accuracy even with limited labeled data, making it effective in scenarios with scarce color references.
@@ -60,44 +54,31 @@ In summary, HybridConvViT combines the best of convolutional networks and Vision
 
 - **Scalability**: Capable of handling larger image resolutions and diverse datasets, ensuring applicability across different use cases.
 
---------------------------------------------------------------------------------
-
 ## Demo or Examples
 
 *Still in progress... Stay tuned for updates!*
-
---------------------------------------------------------------------------------
 
 ## Installation
 
 *Still in progress... Stay tuned for updates!*
 
---------------------------------------------------------------------------------
-
 ## Usage
 
 *Still in progress... Stay tuned for updates!*
-
---------------------------------------------------------------------------------
 
 ## Model Architecture
 
 *Still in progress... Stay tuned for updates!*
 
---------------------------------------------------------------------------------
-
 ## Training Details
 
 *Still in progress... Stay tuned for updates!*
 
---------------------------------------------------------------------------------
-
 ## Results
 
-Present any metrics (e.g., PSNR, SSIM, or other relevant metrics for image colorization).  
-You can also show colorized samples or a link to a live demo if available.
+*Still in progress... Stay tuned for updates!*
 
---------------------------------------------------------------------------------
+## Contributing
 
 We welcome contributions to the HybridConvViT project! Here are some ways you can contribute:
 
@@ -155,13 +136,9 @@ We value your feedback! Feel free to suggest improvements or share your thoughts
 
 Thank you for contributing to HybridConvViT. Your efforts help make this project better for everyone!
 
---------------------------------------------------------------------------------
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
---------------------------------------------------------------------------------
 
 ## Citation
 
